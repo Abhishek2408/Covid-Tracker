@@ -22,8 +22,18 @@ const Covid = () => {
 
     return (
         <>
-        <h1>Live</h1>
-        <h2>Covid Tracker</h2>
+        <section>
+            <div className="box">
+                <div className="textBox">
+                    <div className="text">
+                        <h2>Covid-19 Tracker 🇮🇳 </h2>
+                    </div>
+                    <div className="text">
+                        <h2>🔴Live</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
         <ul>
             <li className="card">
                 <div className="card_main">
